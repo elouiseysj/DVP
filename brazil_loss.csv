@@ -1,0 +1,144 @@
+entity,code,year,count,cause
+Brazil,BRA,2001,280000,Commercial Crops
+Brazil,BRA,2001,0,Flooding due to Dams
+Brazil,BRA,2001,0,Natural Disturbances
+Brazil,BRA,2001,1520000,Pasture
+Brazil,BRA,2001,96000,Selective Logging
+Brazil,BRA,2001,26000,Fire
+Brazil,BRA,2001,9000,Mining
+Brazil,BRA,2001,9000,Other Infrastructure
+Brazil,BRA,2001,13000,Roads
+Brazil,BRA,2001,44000,Tree Plantations Including Palm
+Brazil,BRA,2001,249000,Small Scale Clearing
+Brazil,BRA,2002,415000,Commercial Crops
+Brazil,BRA,2002,79000,Flooding due to Dams
+Brazil,BRA,2002,35000,Natural Disturbances
+Brazil,BRA,2002,2568000,Pasture
+Brazil,BRA,2002,96000,Selective Logging
+Brazil,BRA,2002,114000,Fire
+Brazil,BRA,2002,9000,Mining
+Brazil,BRA,2002,13000,Other Infrastructure
+Brazil,BRA,2002,31000,Roads
+Brazil,BRA,2002,44000,Tree Plantations Including Palm
+Brazil,BRA,2002,293000,Small Scale Clearing
+Brazil,BRA,2003,550000,Commercial Crops
+Brazil,BRA,2003,0,Flooding due to Dams
+Brazil,BRA,2003,35000,Natural Disturbances
+Brazil,BRA,2003,2761000,Pasture
+Brazil,BRA,2003,149000,Selective Logging
+Brazil,BRA,2003,44000,Fire
+Brazil,BRA,2003,0,Mining
+Brazil,BRA,2003,9000,Other Infrastructure
+Brazil,BRA,2003,35000,Roads
+Brazil,BRA,2003,26000,Tree Plantations Including Palm
+Brazil,BRA,2003,358000,Small Scale Clearing
+Brazil,BRA,2004,747000,Commercial Crops
+Brazil,BRA,2004,26000,Flooding due to Dams
+Brazil,BRA,2004,22000,Natural Disturbances
+Brazil,BRA,2004,2564000,Pasture
+Brazil,BRA,2004,131000,Selective Logging
+Brazil,BRA,2004,79000,Fire
+Brazil,BRA,2004,0,Mining
+Brazil,BRA,2004,13000,Other Infrastructure
+Brazil,BRA,2004,57000,Roads
+Brazil,BRA,2004,92000,Tree Plantations Including Palm
+Brazil,BRA,2004,415000,Small Scale Clearing
+Brazil,BRA,2005,328000,Commercial Crops
+Brazil,BRA,2005,17000,Flooding due to Dams
+Brazil,BRA,2005,26000,Natural Disturbances
+Brazil,BRA,2005,2665000,Pasture
+Brazil,BRA,2005,140000,Selective Logging
+Brazil,BRA,2005,393000,Fire
+Brazil,BRA,2005,0,Mining
+Brazil,BRA,2005,13000,Other Infrastructure
+Brazil,BRA,2005,35000,Roads
+Brazil,BRA,2005,52000,Tree Plantations Including Palm
+Brazil,BRA,2005,288000,Small Scale Clearing
+Brazil,BRA,2006,188000,Commercial Crops
+Brazil,BRA,2006,17000,Flooding due to Dams
+Brazil,BRA,2006,26000,Natural Disturbances
+Brazil,BRA,2006,1861000,Pasture
+Brazil,BRA,2006,52000,Selective Logging
+Brazil,BRA,2006,79000,Fire
+Brazil,BRA,2006,0,Mining
+Brazil,BRA,2006,9000,Other Infrastructure
+Brazil,BRA,2006,17000,Roads
+Brazil,BRA,2006,26000,Tree Plantations Including Palm
+Brazil,BRA,2006,306000,Small Scale Clearing
+Brazil,BRA,2007,79000,Commercial Crops
+Brazil,BRA,2007,9000,Flooding due to Dams
+Brazil,BRA,2007,22000,Natural Disturbances
+Brazil,BRA,2007,1577000,Pasture
+Brazil,BRA,2007,96000,Selective Logging
+Brazil,BRA,2007,446000,Fire
+Brazil,BRA,2007,9000,Mining
+Brazil,BRA,2007,13000,Other Infrastructure
+Brazil,BRA,2007,13000,Roads
+Brazil,BRA,2007,39000,Tree Plantations Including Palm
+Brazil,BRA,2007,310000,Small Scale Clearing
+Brazil,BRA,2008,52000,Commercial Crops
+Brazil,BRA,2008,0,Flooding due to Dams
+Brazil,BRA,2008,17000,Natural Disturbances
+Brazil,BRA,2008,1345000,Pasture
+Brazil,BRA,2008,61000,Selective Logging
+Brazil,BRA,2008,70000,Fire
+Brazil,BRA,2008,9000,Mining
+Brazil,BRA,2008,17000,Other Infrastructure
+Brazil,BRA,2008,48000,Roads
+Brazil,BRA,2008,17000,Tree Plantations Including Palm
+Brazil,BRA,2008,397000,Small Scale Clearing
+Brazil,BRA,2009,57000,Commercial Crops
+Brazil,BRA,2009,9000,Flooding due to Dams
+Brazil,BRA,2009,31000,Natural Disturbances
+Brazil,BRA,2009,847000,Pasture
+Brazil,BRA,2009,87000,Selective Logging
+Brazil,BRA,2009,44000,Fire
+Brazil,BRA,2009,0,Mining
+Brazil,BRA,2009,9000,Other Infrastructure
+Brazil,BRA,2009,9000,Roads
+Brazil,BRA,2009,35000,Tree Plantations Including Palm
+Brazil,BRA,2009,301000,Small Scale Clearing
+Brazil,BRA,2010,100000,Commercial Crops
+Brazil,BRA,2010,0,Flooding due to Dams
+Brazil,BRA,2010,44000,Natural Disturbances
+Brazil,BRA,2010,616000,Pasture
+Brazil,BRA,2010,114000,Selective Logging
+Brazil,BRA,2010,537000,Fire
+Brazil,BRA,2010,4000,Mining
+Brazil,BRA,2010,9000,Other Infrastructure
+Brazil,BRA,2010,22000,Roads
+Brazil,BRA,2010,9000,Tree Plantations Including Palm
+Brazil,BRA,2010,271000,Small Scale Clearing
+Brazil,BRA,2011,52000,Commercial Crops
+Brazil,BRA,2011,17000,Flooding due to Dams
+Brazil,BRA,2011,87000,Natural Disturbances
+Brazil,BRA,2011,738000,Pasture
+Brazil,BRA,2011,44000,Selective Logging
+Brazil,BRA,2011,122000,Fire
+Brazil,BRA,2011,0,Mining
+Brazil,BRA,2011,0,Other Infrastructure
+Brazil,BRA,2011,9000,Roads
+Brazil,BRA,2011,26000,Tree Plantations Including Palm
+Brazil,BRA,2011,271000,Small Scale Clearing
+Brazil,BRA,2012,118000,Commercial Crops
+Brazil,BRA,2012,17000,Flooding due to Dams
+Brazil,BRA,2012,52000,Natural Disturbances
+Brazil,BRA,2012,546000,Pasture
+Brazil,BRA,2012,166000,Selective Logging
+Brazil,BRA,2012,70000,Fire
+Brazil,BRA,2012,0,Mining
+Brazil,BRA,2012,13000,Other Infrastructure
+Brazil,BRA,2012,31000,Roads
+Brazil,BRA,2012,26000,Tree Plantations Including Palm
+Brazil,BRA,2012,232000,Small Scale Clearing
+Brazil,BRA,2013,87000,Commercial Crops
+Brazil,BRA,2013,0,Flooding due to Dams
+Brazil,BRA,2013,13000,Natural Disturbances
+Brazil,BRA,2013,695000,Pasture
+Brazil,BRA,2013,131000,Selective Logging
+Brazil,BRA,2013,26000,Fire
+Brazil,BRA,2013,35000,Mining
+Brazil,BRA,2013,4000,Other Infrastructure
+Brazil,BRA,2013,17000,Roads
+Brazil,BRA,2013,35000,Tree Plantations Including Palm
+Brazil,BRA,2013,284000,Small Scale Clearing
