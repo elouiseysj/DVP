@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+    <!-- Import pure.css -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- CSS file -->
+    <link rel="stylesheet" type="text/css" href="styles.css" media="all">
+
+
+</head>
+
+<body>
+    <header id="header">
+        <nav class="nav">
+            <div class="nav__links">
+                <a href="#vis1">Global Percentage of Forest Area</a>
+                <a href="#vis2">Global Forest Conversion</a>
+                <a href="#vis3">Drivers of Forest Loss in Brazil</a>
+                <a href="#vis4">Palm Oil Production in South East Asia</a>
+                <a href="#vis5">Soy Production and Usages</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="body__title">
+        <img src="deforestation.jpg" alt="Trees" width="100%" height="600px" />
+        <div class="body__title-text">Global Deforestation Trends</div>
+        <div class="body__title-text2">Forests cover nearly a third of the world’s land area, 
+          but this coverage is rapidly shrinking. Explore the factors driving deforestation, 
+          from agricultural expansion to logging, and discover the impact of these changes on our environment.</div>
+    </div>
+
+    <div class="page">
+         <!-- pure grid group -->
+         <div class="pure-g">
+             <div class="pure-u-1-3">
+              <div class="description description-left">
+                <h2>Global Percentage of Forest Area</h2>
+                <p>Forests cover nearly one-third of the planet’s land area, but this coverage is unevenly distributed. <span class="bold">Russia</span> holds the largest share of forested land, with over 800 million hectares, followed by other nations like Brazil, Canada, and the United States, which each contribute significantly to global forest resources.</p>
+                <p>Brazil, with its vast Amazon rainforest, is the only country besides Russia with more than 10% of the world’s total forest area, underscoring its critical role in biodiversity and carbon storage.</p>
+                <p>Despite the importance of these forests, human activities are reshaping the landscape. Expansion of <span class="bold">agriculture</span>, urbanization, and logging have led to a <span class="red">sharp decline</span> in global forest cover, threatening ecosystems and contributing to climate change. As the demand for land grows, preserving these natural resources becomes an even greater challenge.</p>
+            </div>            
+             </div>
+             <div class="pure-u-2-3">
+               <div id="vis1" class="vis-container2"></div>
+             </div>
+         </div>
+         <!-- end pure grid group -->
+     
+         <!-- pure grid group -->
+         <div class="pure-g">
+             <div class="pure-u-2-3">
+               <div id="vis2"  class="vis-container"></div>
+             </div>
+             <div class="pure-u-1-3">
+              <div class="description description-right">
+                <h2>Global Forest Conversion</h2>
+                <p>Forest areas are constantly changing, with some countries achieving <span class="green">positive net growth</span> through reforestation efforts, while others face substantial <span class="red">losses</span> due to logging, agriculture, and urban expansion. This map reveals where forest areas are increasing and where they’re dwindling.</p>
+                <p>Each year, the world loses around 5 million hectares of forest, primarily in tropical regions, where about <span class="bold">95%</span> of deforestation occurs. The main driver? Agriculture—especially the conversion of forests into farmland and pastures for livestock and crop production. These changes challenge global efforts to sustain forest ecosystems and biodiversity.</p>
+            </div>
+            
+             </div>
+         </div>
+         <!-- end pure grid group -->
+
+         <!-- pure grid group -->
+         <div class="pure-g">
+          <div class="pure-u-1-3">
+              <div class="description description-left">
+                  <h2>Drivers of Forest Loss in Brazil</h2>
+                  <p>In recent decades, Brazil has increased its use of land for <span class="bold">soy production</span> and pasture, driven largely by global demand for soybeans and beef. But at what cost to the Amazon rainforest?</p>
+                  <p>The area chart shows forest loss over time, broken down by key causes. Among these, <span class="bold">pasture expansion</span> has had the most significant impact on Brazil’s forests, particularly in the Amazon, where vast areas of rainforest have been converted to grazing land.</p>
+                  <p>In 2006, Brazil introduced the <span class="bold">Soy Moratorium</span>, a voluntary agreement by major soy producers to reduce deforestation linked to soy cultivation. This intervention has been largely successful, as evidenced by a significant <span class="red">decline</span> in forest loss due to commercial crops following its implementation.</p>
+                  <div class="tips-text">Tips: Use this area chart to brush through different years and the bar chart to highlight different causes.</div>
+              </div>
+          </div>
+          <div class="pure-u-2-3">
+              <div id="vis3" class="vis-container"></div>
+          </div>
+      </div>
+      
+
+         <!-- end pure grid group -->
+     
+         <!-- pure grid group -->
+         <div class="pure-g">
+            <div class="pure-u-2-3">
+              <div id="vis4"  class="vis-container"></div>
+            </div>
+            <div class="pure-u-1-3">
+              <div class="description description-right">
+                <h2>Palm Oil Production in South East Asia</h2>
+                <p>Palm oil production is concentrated in a few key countries, with <span class="blue">Indonesia</span> and <span class="orange">Malaysia</span> dominating the global market. These two nations alone account for <span class="bold">63%</span> of the world's palm oil land use, despite producing <span class="bold">84%</span> of global output. Their high efficiency and yields make them leaders in this industry.</p>
+                <p>In total, more than <span class="bold">300 million hectares</span> of global land are used for oil crops, but only <span class="bold">6%</span> is dedicated to palm oil. Remarkably, this small percentage of land produces over <span class="bold">36%</span> of the world's vegetable oil, highlighting palm oil's high productivity.</p>
+                <div class="tips-text">Tips: Hover through the chart to enquire more information.</div>
+              </div>
+            </div>
+         </div>
+         <!-- end pure grid group -->
+       
+         <!-- pure grid group -->
+         <div class="pure-g">
+            <div class="pure-u-1-3">
+              <<div class="description description-left">
+                <h2>Soy Production and Usages</h2>
+                <p>Soybeans have become an essential crop worldwide due to their versatile applications. The chart shows three main categories: <span class="red">Processed products</span>, <span class="orange">Human food</span>, and <span class="blue">Animal feed</span>.</p>
+                <p><span class="red">Processed products</span>, which make up the largest portion of soy demand, include animal feed, soybean oil, and biofuels. This category meets around 70% of global soy demand. <span class="orange">Human food</span> includes soy-based foods consumed directly, while <span class="blue">Animal feed</span> represents soybeans used directly for livestock.</p>
+                <p>The rapid growth in global meat production over the past five decades, especially in poultry, has significantly increased demand for soy, making it a vital component of animal feed worldwide.</p>
+                <div class="tips-text">Tips: Select one of the usages of soy on the legend.</div>
+            </div>
+            
+            </div>
+            <div class="pure-u-2-3">
+              <div id="vis5" class="vis-container"></div>
+            </div>
+         </div>
+         <!-- end pure grid group -->
+         <p>Vizualizations created by Elouise Sze Jing Yung</p>
+       </div> <!-- end page -->
+        
+     <script type="text/javascript">
+
+       var specVis1 = "./map1.vega";
+       var specVis2 = "./map2.vega";
+       var specVis3 = "./stackedarea.vega";
+       var specVis4 = "./palmoil.vega";
+       var specVis5 = "./soyworld.vega";
+     
+       vegaEmbed('#vis1', specVis1, {"actions": false});
+       
+        vegaEmbed('#vis2', specVis2, {"actions": false}).then(function(result) {
+       }).catch(console.error);
+     
+       vegaEmbed('#vis3', specVis3, {"actions": false}).then(function(result) {
+       }).catch(console.error);
+     
+       vegaEmbed('#vis4', specVis4, {"actions": false}).then(function(result) {
+       }).catch(console.error);
+
+       vegaEmbed('#vis5', specVis5, {"actions": false}).then(function(result) {
+       }).catch(console.error);
+
+     </script>
+     </body>
+     </html>

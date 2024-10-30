@@ -1,0 +1,214 @@
+.nav {
+	background-color: #EDFBFF;
+}
+
+.nav__links {
+	display: flex;
+	flex-direction: row;
+	padding: 1rem;
+	justify-content: space-around;
+}
+
+.nav__links a {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+}
+
+.nav__links a:link {
+	color: green;
+}
+
+.nav__links a:visited {
+	color: green;
+}
+
+.nav__links a:hover {
+	cursor: pointer;
+}
+
+.body__title {
+	position: relative;
+	text-align: center;
+}
+
+.body__title img {
+	opacity: 0.35;
+}
+
+.body__title-text {
+    font-weight: 900;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 4.5rem;
+	line-height: 1;
+	position: absolute;
+	color: #00563F;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -120%);
+}
+
+.body__title-text2 {
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
+	font-size: 1.875rem;
+	line-height: 2.25rem;
+	position: absolute;
+	color: #00563F;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 0%);
+}
+
+.body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a.button1{
+	display:inline-block;
+	padding:0.35em 1.2em;
+	border:0.1em solid #000000;
+	margin:0 0.3em 0.3em 0;
+	border-radius:0.12em;
+	box-sizing: border-box;
+	text-decoration:none;
+	font-family:'Montserrat', sans-serif;
+	font-weight:300;
+	color:#000000;
+	text-align:center;
+	transition: all 0.2s;
+}
+
+a.button1:hover{
+	color:#FFFFFF;
+	background-color:#000000;
+}
+
+@media all and (max-width:2200px) {
+	.body__graph {
+		flex-direction: column;
+	}
+
+	.graph {
+		align-self: center;
+	}
+
+	.body__map1--body--big {
+		/* visibility: hidden; */
+		display: none;
+	}
+
+	.body__map1--body--small {
+		/* visibility: visible; */
+		display: flex;
+		text-align: center;
+		margin: 2rem;
+		align-self: center;
+	}
+}
+
+@media all and (max-width:30em){
+	a.button1 {
+		display:block;
+		margin:0.4em auto;
+	}
+}
+
+h2 {
+    font-weight: 800;
+	padding: 50px 0 50px;
+    text-align: center;
+    font-size: xx-large;
+	color: white;
+	background-color: #00563F;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+p{
+    text-align: center;
+    font-size: 13px;
+	padding-top: 8px;
+	font-weight: 500;
+	font-family: 'Montserrat', sans-serif
+}
+
+body {
+    background-color: lightcyan;
+    margin: 0;
+}
+
+.page {
+    max-width: 1200px;
+    background-color: lightcyan;
+    margin: auto;
+    padding: 5px;
+    padding-top: 35px;
+}
+
+.vis-container {
+    width: 100%;
+}
+
+.vis-container2 {
+    width: 100%;
+	padding-left: 100px;
+}
+
+.description h2,
+h1 {
+    margin-top: 0px;
+}
+
+.description-right {
+    padding-left: 20px;
+}
+
+.description-left {
+    padding-right: 20px;
+}
+
+.pure-g {
+    margin-bottom: 25px;
+}
+
+.small-font {
+    font-size: 14px;
+}
+
+.green {
+	font-weight: 800;
+	color:green
+}
+
+.red {
+	font-weight: 600;
+	color:red
+}
+
+.blue {
+	font-weight: 800;
+	color:blue
+}
+
+.orange {
+	font-weight: 800;
+	color:orange
+}
+
+.bold {
+	font-weight: 800;
+}
+
+.tips-text {
+	position: relative; /* Needed for absolutely positioning .tips-text */
+    font-size: 13px;
+	font-weight: 400;
+    color: #1a1fb1;
+    margin-top: 10px;
+    padding-top: 25px;
+    border-top: 1px solid #ccc; /* Adds a subtle line to separate the tips from the description */
+    font-style: italic;
+}
+
+
+

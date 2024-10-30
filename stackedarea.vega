@@ -1,0 +1,87 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "vconcat": [
+    {
+    "title": "Annual Forest Loss in Brazil by Cause",
+    "data": {
+    "url": "https://raw.githubusercontent.com/elouiseysj/DVP/refs/heads/main/brazil_loss.csv"},
+      "encoding": {
+        "color": {
+          "condition": {
+            "param": "time_brush",
+            "title": "Causes",
+            "field": "cause",
+            "type": "nominal",
+            "scale": {
+            "domain": ["Commercial Crops","Fire", "Flooding due to Dams", "Mining", "Natural Disturbances", "Other Infrastructure", "Pasture", "Roads","Selective Logging","Small Scale Clearing", "Tree Plantations Including Palm"],
+              "scheme": "category20c"
+            }
+          },
+          "value": "lightgray"
+        },
+          "x": {
+          "field": "year",
+          "timeUnit": "yearmonth",
+          "title": "Year",
+          "axis": {"format": "%Y"}
+        },
+        "y": {
+          "title": "Total Loss of Forest (Hectares)",
+          "aggregate": "sum", "field": "count",
+          "type": "quantitative"
+        },
+
+      "tooltip": [
+ {"field": "count", "type": "quantitative"},
+ {"field": "cause", "type": "nominal"},
+ {"field": "year", "timeUnit": "year", "title":"Year"}
+    ]
+      },
+      "width": 500,
+      "height": 400,
+      "mark": "area",
+
+      "params": [{
+        "name": "time_brush",
+        "select": {"type": "interval", "encodings": ["x"]}
+      }],
+      "transform": [{"filter": {"param": "click"}}]
+    },
+    
+    {
+    "title": "Cumulative Impact of Deforestation Drivers in Brazil",
+    "data": {
+    "url": "https://raw.githubusercontent.com/elouiseysj/DVP/refs/heads/main/brazil_loss.csv"},
+      "encoding": {
+        "color": {
+          "condition": {
+            "param": "click",
+            "field": "cause", 
+            "scale": {
+            "domain": ["Commercial Crops","Fire", "Flooding due to Dams", "Mining", "Natural Disturbances", "Other Infrastructure", "Pasture", "Roads","Selective Logging","Small Scale Clearing", "Tree Plantations Including Palm"],
+              "scheme": "category20c"
+            }
+          },
+          "value": "lightgray"
+        },
+        "x": {"field": "count","type": "quantitative", "title":"Total Loss of Forest (Hectares)"},
+        "y": {"title": "Causes", "field": "cause", "type": "nominal"},
+
+              "tooltip": [
+ {"field": "count", "type": "quantitative"},
+ {"field": "cause", "type": "nominal"},
+{"field": "year", "timeUnit": "year", "title":"Year"}
+    ]
+      },
+      "width": 500,
+      "height": 120,
+      "mark": "bar",
+      "params": [{
+        "name": "click",
+        "select": {"type": "point", "encodings": ["color"]}
+      }],
+      "transform": [
+        {"filter": {"param": "time_brush"}}]
+    }
+  ]
+}
